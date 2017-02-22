@@ -23,7 +23,7 @@ public class ReadDataFromExcel {
         for(int i = 0; i<rowcount; i++){
             String data = sheet.getRow(i).getCell(0).getStringCellValue();
             System.out.println("Data from row" + data);
-
+           System.out.println();
         }
 
     }
