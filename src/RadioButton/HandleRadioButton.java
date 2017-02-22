@@ -40,6 +40,7 @@ public class HandleRadioButton {
                    ele.click();
                    break;
                }
+               System.out.println();
 
             }
         }
